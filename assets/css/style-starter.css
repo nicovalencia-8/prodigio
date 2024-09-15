@@ -17141,3 +17141,115 @@ button.owl-next {
 /* //pagination blog page */
 
 /*# sourceMappingURL=style-freedom.css.map */
+
+
+
+/* error page */
+.w3l-error-page {
+  background: url(../images/error.jpg) no-repeat center left;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.w3l-error-page::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgb(10 10 10 / 75%));
+  z-index: -1;
+}
+
+.w3l-error-block .content h1 {
+  font-size: 200px;
+  line-height: 190px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.w3l-error-block .content p {
+  font-size: 20px;
+  line-height: 34px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.w3l-error-block .search-error .search-input {
+  border: none;
+  padding: 14px 50px 14px 14px;
+  font-size: 16px;
+  color: #fff;
+  background: transparent;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.w3l-error-block .search-error button {
+  border: none;
+  color: #fff;
+  background: none;
+  position: absolute;
+  right: 0;
+  padding: 0 20px 0 10px;
+  font-size: 16px;
+  top: 0;
+  bottom: 0;
+}
+
+.w3l-error-block .search-error button:hover {
+  color: var(--heading-color);
+}
+
+/* placeholder color change */
+.search-error ::placeholder {
+  color: #fff;
+  opacity: .8;
+  /* Firefox */
+}
+
+.search-error :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.search-error ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .w3l-error-block .content h1 {
+    font-size: 150px;
+  }
+
+  .w3l-error-block .content h2 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 440px) {
+  .w3l-error-block .content h1 {
+    font-size: 120px;
+    line-height: 150px;
+  }
+
+  .w3l-error-block .content h2 {
+    font-size: 27px;
+  }
+
+  .w3l-error-block .content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+/* //error page */
