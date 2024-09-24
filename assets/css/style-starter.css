@@ -69,7 +69,7 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Infinito Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16088,7 +16088,7 @@ p.copy-footer-29 {
 
 /* inner-banner */
 .inner-banner {
-  background: url(../images/inner-banner.jpg) no-repeat center;
+  background: url(../images/inner-banner.png) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16887,7 +16887,7 @@ button.owl-next {
 .menu-item-price h6 {
   font-weight: bold;
   font-size: 1.3em;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .menu-item-description p {
