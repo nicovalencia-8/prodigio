@@ -63,6 +63,13 @@ section {
   display: block;
 }
 
+@font-face {
+  font-family: 'Infinita Sans';
+  src: url('/assets/fonts/Infinita\ Sans-VF.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -14092,7 +14099,7 @@ html {
   padding: 0;
   background: var(--bg-color);
   color: var(--font-color);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Infinita Sans', sans-serif;
 }
 
 body a,
@@ -14130,7 +14137,7 @@ li,
 span {
   -webkit-appearance: none;
   outline: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Infinita Sans', sans-serif;
 }
 
 a,
@@ -14161,7 +14168,7 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Infinita Sans', sans-serif;
 }
 
 p {
