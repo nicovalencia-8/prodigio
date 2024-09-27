@@ -15421,6 +15421,26 @@ button.search-btn:hover {
   color: #ffffff;
 }
 
+.btn-style-white-dw {
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all .25s ease-in-out;
+  border-radius: 30px;
+}
+
+.btn-style-white-dw {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-style-white-dw:hover{
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: var(--primary-color);
+}
+
 .btn-style-border:hover {
   background: #ffffff;
   border-color: #ffffff;
