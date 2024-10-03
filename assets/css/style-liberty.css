@@ -17687,6 +17687,9 @@ li.tip {
   border-radius: 4px;
   background-color: var(--bg-light);
   border-radius: 20px;
+  -webkit-box-shadow: 8px 8px 10px 0px rgba(235,216,174,0.5);
+  -moz-box-shadow: 8px 8px 10px 0px rgba(235,216,174,0.5);
+  box-shadow: 8px 8px 10px 0px rgba(235,216,174,0.5);
 }
 
 .contact a:hover {
